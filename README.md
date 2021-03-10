@@ -29,4 +29,4 @@ Redis --
 
 This way events sent Server 1 --> Client 1 are also sent Server 1 --> Redis Server --> Server 2 --> Client 2
 
-You can spin up as many NodeSocketServers as you like they will all be connected through the Redis server and emit events as if they are one single server.
+You can spin up as many Servers as you like they will all be connected through the Redis server and emit events as if they are one single server.
