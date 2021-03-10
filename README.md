@@ -5,8 +5,7 @@
 npm i
 ```
 
-Spin up a redis server
-Fill in the missing environment variables in nodemon.json using your redis server's information
+Spin up a redis server and fill in the missing environment variables in nodemon.json using your redis server's information
 
 ```
 npm start
@@ -28,6 +27,6 @@ Redis --
          ----- Server 2 ---- Client 1
 ```
 
-This way events sent Server 1 --> Client 1 are also sent Server 1 --> Redis Server --> Server 2
+This way events sent Server 1 --> Client 1 are also sent Server 1 --> Redis Server --> Server 2 --> Client 2
 
 You can spin up as many NodeSocketServers as you like they will all be connected through the Redis server and emit events as if they are one single server.
