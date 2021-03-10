@@ -24,7 +24,8 @@ Server 1 and 2 are connected to eachother through a redis server
          ----- Server 1 ---- Client 1
         |      
 Redis --
-        |----- Server 2 ---- Client 1
+        |
+         ----- Server 2 ---- Client 1
 ```
 
 This way events sent Server 1 --> Client 1 are also sent Server 1 --> Redis Server --> Server 2
