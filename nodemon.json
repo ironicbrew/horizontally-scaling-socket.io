@@ -1,0 +1,7 @@
+{
+  "env": {
+    "REDIS_HOST": "",
+    "REDIS_PORT": 0,
+    "REDIS_PASSWORD": ""
+  }
+}
